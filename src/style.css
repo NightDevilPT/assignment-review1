@@ -1,0 +1,132 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #a300b5;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 230px;
+  height: 300px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #01131b6c;
+}
+
+.image-div{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-div span{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #020e4a;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.user-image{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    color: white;
+    bottom: 0px;
+    background-color: #020e4a;
+    border-radius: 50%;
+    border: 2px solid #020e4a;
+}
+
+.rating-div{
+    position: relative;
+    margin-top:3px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-detail-div{
+    position: relative;
+    margin-top:5px ;
+    width: 100%;
+    height: auto;
+}
+.user-detail-div h2{
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    color: #020e4a;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+.user-detail-div h3{
+    margin-top: 2px !important;
+    margin-bottom: 0px !important;
+    text-align: center;
+    width: 100%;
+    color: #020e4a;
+    font-size: 14px;
+}
+
+.review-div{
+    position: relative;
+    margin: 5px auto;
+    width: 90%;
+    text-align: center;
+    height: 80px;
+}
+
+.review-div span{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    color: #020e4a;
+}
+
+.review-date-div{
+    position: relative;
+    margin: 5px auto;
+    width: 90%;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.review-date-div span{
+    color: #020e4a;
+    font-size: 13px;
+}
